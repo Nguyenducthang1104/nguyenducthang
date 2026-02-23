@@ -1,6 +1,37 @@
 import requests
 import json
 
+
+banners = """
+oooooooooo.   ooooo     ooo   .oooooo.        ooooooooooooo ooooo   ooooo       .o.       ooooo      ooo   .oooooo.    
+`888'   `Y8b  `888'     `8'  d8P'  `Y8b       8'   888   `8 `888'   `888'      .888.      `888b.     `8'  d8P'  `Y8b   
+ 888      888  888       8  888                    888       888     888      .8"888.      8 `88b.    8  888           
+ 888      888  888       8  888                    888       888ooooo888     .8' `888.     8   `88b.  8  888           
+ 888      888  888       8  888                    888       888     888    .88ooo8888.    8     `88b.8  888     ooooo  
+ 888     d88'  `88.    .8'  `88b    ooo            888       888     888   .8'     `888.   8       `888  `88.    .88'  
+o888bood8P'      `YbodP'     `Y8bood8P'           o888o     o888o   o888o o88o     o8888o o8o        `8   `Y8bood8P'   
+                                                                                                                      
+"""
+print(banners)
+
+thongtin = f"""
+------------------------------------------
+Coder By: Nguyen Duc Thang
+Tele: @vodanh89
+------------------------------------------
+"""
+
+# Cách in ra màn hình
+
+print('\x1b[38;5;207m╔══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;46m═╗')
+print('\x1b[38;5;208m║ \x1b[38;5;207mTele: @vodanh89                                              \x1b[38;5;207m ║')
+print('\x1b[38;5;208m║ \x1b[38;5;99mCode By: Nguyen Duc Thang                                    \x1b[38;5;207m ║')
+print('\x1b[38;5;208m║ \x1b[38;5;26mVision 1.0                                                   \x1b[38;5;207m ║')
+print('\x1b[38;5;207m╚══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;46m═╝')
+print('\x1b[38;5;46m-----------------------------------------------------------------')
+
+
+
 LOGIN_URL = "https://tuongtaccheo.com/login.php"
 TANGXU_URL = "https://tuongtaccheo.com/caidat/tangxu.php"
 
@@ -60,3 +91,4 @@ with requests.Session() as s:
         }
 
         print("Kết quả:", codes.get(res_text, f"Phản hồi: {res_text}"))
+
