@@ -29,7 +29,13 @@ print('\x1b[38;5;208m║ \x1b[38;5;99mCode By: Nguyen Duc Thang                 
 print('\x1b[38;5;208m║ \x1b[38;5;26mVision 1.0                                                   \x1b[38;5;207m ║')
 print('\x1b[38;5;207m╚══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;226m══\x1b[38;5;99m══\x1b[38;5;46m══\x1b[38;5;51m══\x1b[38;5;208m══\x1b[38;5;51m══\x1b[38;5;46m══\x1b[38;5;99m══\x1b[38;5;207m══\x1b[38;5;51m══\x1b[38;5;46m═╝')
 print('\x1b[38;5;46m-----------------------------------------------------------------')
-
+def banner():
+    print('[0m', end='')
+    clear()
+    a = Colorate.Horizontal(Colors.blue_to_green, banners)
+    print(a)
+    print(thongtin)
+    vanlong(17)
 
 
 LOGIN_URL = "https://tuongtaccheo.com/login.php"
@@ -91,4 +97,5 @@ with requests.Session() as s:
         }
 
         print("Kết quả:", codes.get(res_text, f"Phản hồi: {res_text}"))
+
 
