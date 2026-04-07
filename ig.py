@@ -16,6 +16,9 @@ except ImportError:
     os.system("pip install tabulate")
     os.system("pip install art")
     os.system("pip install colorama")
+    os.system("pip install Fore")
+
+    
 def countdown(time_sec):
     for remaining_time in range(time_sec, -1, -1):
         colors = [
