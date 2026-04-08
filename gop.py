@@ -88,6 +88,7 @@ print("\033[38;5;155m      Nhập Số \033[1;36m[3.1] \033[38;5;204mTOOL GOLIKE
 print("\033[38;5;155m      Nhập Số \033[1;36m[3.2] \033[38;5;204mTOOL GOLIKE TIKTOK \033[1;33m[BẤM TAY]")
 print("\033[38;5;155m      Nhập Số \033[1;36m[3.3] \033[38;5;204mTOOL GOLIKE IG ")
 print("\033[38;5;155m      Nhập Số \033[1;36m[3.4] \033[38;5;204mTOOL GOLIKE THREADS ")
+print("\033[38;5;155m      Nhập Số \033[1;36m[3.5] \033[38;5;204mTOOL GOLIKE X ")
 
 
 
@@ -148,6 +149,8 @@ if chon == 3.3 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/ig.py').text)
 if chon == 3.4 :
 	exec(requests.get('https://raw.githubusercontent.com/nguyenkkhihi/toolgop/refs/heads/main/golikeThegjkifderads.py').text)
+if chon == 3.5 :
+	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/golikex.py').text)
 
 
 
