@@ -163,7 +163,7 @@ if chon == 6.2 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/ddos.py').text)
 if chon == 6.3 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/dec.py').text)
-if chon == 6.3 :
+if chon == 6.4 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/scanmail.py').text)
 
 else :
