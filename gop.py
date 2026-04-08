@@ -104,6 +104,7 @@ print("\033[1;39m   ╚═══════════════════
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.1] \033[38;5;204mTOOL SPAM SMS")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.2] \033[38;5;204mTOOL DDOS")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.3] \033[38;5;204mTOOL DEC")
+print("\033[38;5;155m      Nhập Số \033[1;36m[6.4] \033[38;5;204mTOOL SCAN MAIL")
 
 
 
@@ -162,6 +163,8 @@ if chon == 6.2 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/ddos.py').text)
 if chon == 6.3 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/dec.py').text)
+if chon == 6.3 :
+	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/scanmail.py').text)
 
 else :
 	exit()
