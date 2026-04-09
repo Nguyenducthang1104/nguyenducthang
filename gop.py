@@ -107,6 +107,7 @@ print("\033[38;5;155m      Nhập Số \033[1;36m[6.2] \033[38;5;204mTOOL DDOS")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.3] \033[38;5;204mTOOL DEC")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.4] \033[38;5;204mTOOL SCAN MAIL")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.5] \033[38;5;204mTOOL GET UID POST")
+print("\033[38;5;155m      Nhập Số \033[1;36m[6.6] \033[38;5;204mTOOL BUFF SHARE")
 
 
 
@@ -169,8 +170,10 @@ if chon == 6.3 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/dec.py').text)
 if chon == 6.4 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/scanmail.py').text)
-if chon == 6. :
+if chon == 6.5 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/get-post.py').text)
+if chon == 6.6 :
+	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/share.py').text)
 
 else :
 	exit()
