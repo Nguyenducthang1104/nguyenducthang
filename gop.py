@@ -108,7 +108,7 @@ print("\033[38;5;155m      Nhập Số \033[1;36m[6.2] \033[38;5;204mTOOL DDOS")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.3] \033[38;5;204mTOOL DEC")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.4] \033[38;5;204mTOOL SCAN MAIL")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.5] \033[38;5;204mTOOL SCAN PROXY")
-print("\033[38;5;155m      Nhập Số \033[1;36m[6.6] \033[38;5;204mTOOL SCAN PROXY")
+print("\033[38;5;155m      Nhập Số \033[1;36m[6.6] \033[38;5;204mTOOL LỌC PROXY")
 
 
 
