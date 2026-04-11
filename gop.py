@@ -97,7 +97,8 @@ print("\033[1;39m   ║ \033[1;34mTOOL LIÊN QUAN VỀ FACEBOOK\033[1;39m  ║ "
 print("\033[1;39m   ╚═════════════════════════════╝")
 print("\033[38;5;155m      Nhập Số \033[1;36m[5.1] \033[38;5;204mTOOL REG PRO5")
 print("\033[38;5;155m      Nhập Số \033[1;36m[5.2] \033[38;5;204mTOOL Nuôi")
-
+print("\033[38;5;155m      Nhập Số \033[1;36m[5.3] \033[38;5;204mTOOL GET UID POST")
+print("\033[38;5;155m      Nhập Số \033[1;36m[5.4] \033[38;5;204mTOOL BUFF SHARE")
 
 print("\033[1;39m   ╔═════════════════════╗")
 print("\033[1;39m   ║ \033[1;34mTOOL TIỆN ÍCH     \033[1;39m  ║ ")
@@ -106,9 +107,8 @@ print("\033[38;5;155m      Nhập Số \033[1;36m[6.1] \033[38;5;204mTOOL SPAM S
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.2] \033[38;5;204mTOOL DDOS")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.3] \033[38;5;204mTOOL DEC")
 print("\033[38;5;155m      Nhập Số \033[1;36m[6.4] \033[38;5;204mTOOL SCAN MAIL")
-print("\033[38;5;155m      Nhập Số \033[1;36m[6.5] \033[38;5;204mTOOL GET UID POST")
-print("\033[38;5;155m      Nhập Số \033[1;36m[6.6] \033[38;5;204mTOOL BUFF SHARE")
-print("\033[38;5;155m      Nhập Số \033[1;36m[6.7] \033[38;5;204mTOOL SCAN PROXY")
+print("\033[38;5;155m      Nhập Số \033[1;36m[6.5] \033[38;5;204mTOOL SCAN PROXY")
+print("\033[38;5;155m      Nhập Số \033[1;36m[6.6] \033[38;5;204mTOOL SCAN PROXY")
 
 
 
@@ -162,7 +162,10 @@ if chon == 5.1 :
 	exec(requests.get('github.com/Nguyenducthang1104/nguyenducthang/raw/refs/heads/main/regpro5.py').text)
 if chon == 5.2 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/nuoi.py').text)
-
+if chon == 5.3 :
+	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/get-post.py').text)
+if chon == 5.4 :
+	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/share.py').text)
 if chon == 6.1 :
 	exec(requests.get('https://raw.githubusercontent.com/Khanh23047/Spamsmsv2/main/smsv2.py').text)
 if chon == 6.2 :
@@ -172,11 +175,8 @@ if chon == 6.3 :
 if chon == 6.4 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/scanmail.py').text)
 if chon == 6.5 :
-	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/get-post.py').text)
-if chon == 6.6 :
-	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/share.py').text)
-if chon == 6.7 :
 	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/scanproxy.py').text)
-
+if chon == 6.6 :
+	exec(requests.get('https://raw.githubusercontent.com/Nguyenducthang1104/nguyenducthang/refs/heads/main/locprx.py').text)
 else :
 	exit()
